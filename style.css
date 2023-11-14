@@ -1,0 +1,79 @@
+*{ margin:0px ;
+    padding: 0px;
+}
+    BODY{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top:0;
+
+}
+.logo{
+    color:#ff4668;
+}
+.login{
+    color: black;
+}
+.login:hover{
+    color: aqua;
+}
+.searchbar{
+    display: flex;
+    border: solid black 2px;
+width: 30%;
+border-radius: 30px;
+justify-content: space-around;
+align-items: center;
+padding: 10px;
+}
+.search{
+    color:#ff4668;
+    padding: 5px;
+  
+}
+.filterbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+i{
+    font-size: 20px;
+}
+.box{
+    text-align: center;
+    color: gray;
+}
+.box:hover{
+    color: black;
+}
+.hotel-container{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    flex-wrap: wrap ;
+    gap: 20px;
+}
+
+img{
+    border-radius: 10px;
+    width: 15rem;
+   transition-duration: 2s;
+   -o-transform-origin: 5%;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333; /* background color */
+    color: #fff; /* text color */
+    padding: 20px; /* spacing inside the footer */
+    font-size: 16px; /* font size of the text */
+  }
